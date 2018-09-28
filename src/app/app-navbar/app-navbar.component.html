@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="navbar-movie-detail col-3">
+      	<p class="movie-name">Movie Name</p>
+      	<p>Language|2D</p>
+      	<p>PVR,Priya,Delhi</p>
+      </div>
+      <form class="form-inline col-sm-6" (submit)="isEnable($event)">
+
+        <input class="form-control mr-sm-2" type="text" placeholder="First Name" id="name" required minlength="6" pattern="[a-zA-Z]+">
+
+        <select class="form-control" id="noseat" required >
+   <option value="" required selected>0</option>
+
+
+ </select>
+
+        <button class="btn btn-outline-success btn-selection" id="submit" type="submit">Start Selection</button>
+      </form>
+ 
+  </nav>

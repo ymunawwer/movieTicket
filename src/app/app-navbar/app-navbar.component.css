@@ -1,0 +1,27 @@
+.navbar{
+	height: 110px;
+
+
+
+}
+.navbar-movie-detail{
+	margin: 12px;
+
+}
+p{
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+.movie-name{
+	font-weight: normal;
+	color: #1de9b6;
+	font-size: 18px;
+}
+.no-of-seats{
+	height: 20px; 
+}
+.btn-selection{
+	margin-left: 22px;
+}

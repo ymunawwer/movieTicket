@@ -1,0 +1,101 @@
+
+<br><br><br>
+<br><br><br>
+<div class="content col-9">
+	 
+<div class="content-screen"><label>SCREEN</label></div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<!--             start                 -->
+
+
+                    <div class="row table-seat">
+                        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2"></div>
+                        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                            <table id="seatTable" class="table fixed-column td">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>1</th>
+                                        <th>2</th>
+                                        <th>3</th>
+                                        <th>4</th>
+                                        <th>5</th>
+                                        <th>6</th>
+                                        <th>7</th>
+                                        <th>8</th>
+                                        <th></th>
+                                        <th>9</th>
+                                        <th>10</th>
+                                        <th>11</th>
+                                        <th>12</th>
+                                        <th>13</th>
+                                        <th>14</th>
+                                        <th>15</th>
+                                        <th>16</th>
+                                        
+                                      
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>A</td>
+                                    </tr>
+                                    <tr>
+                                        <td>B</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C</td>
+                                    </tr>
+                                    <tr>
+                                        <td>D</td>
+                                    </tr>
+                                    <tr>
+                                        <td>E</td>
+                                    </tr>
+                                    <tr>
+                                        <td>F</td>
+                                    </tr>
+                                    <tr>
+                                        <td>G</td>
+                                    </tr>
+                                    <tr>
+                                        <td>H</td>
+                                    </tr>
+                                    <tr>
+                                        <td>I</td>
+                                    </tr>
+                                    <tr>
+                                        <td>J</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                       
+                            <div class="color-code">
+                                <p><span class="spanBox" style='Background-color:green'></span><label>Selected Seats</label></p>
+                               <p><span class="spanBox" style='Background-color:red'></span><label>Reserved Seats</label></p>
+                                <p><span class="spanBox"></span><label>Available Seats</label></p>
+                              
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2"></div>
+                    </div>
+ 
+
+<!--             end                   -->
+
+<button class="btn btn-outline-success btn-confirmation" (click)="storeData()">Confirm Selection</button>
+
+<table >
+<tr>
+    <th>Name</th>
+    <th>No of Seat</th>
+    <th>Seat No</th>
+</tr>
+<tr *ngFor="let hero of heroes"  align="center">
+  <td class="col-2" >{{hero.name}}</td>
+  <td class=col-5>{{hero.no_seat}}</td>
+  <td class="col-2">{{hero.seatno}}</td>
+</tr>
+</table>
+</div>
