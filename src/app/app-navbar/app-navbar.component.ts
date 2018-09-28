@@ -12,7 +12,7 @@ export class AppNavbarComponent implements OnInit {
   }
 
   ngOnInit() {
-     $(document).ready(function () {
+ $(document).ready(function () {
  for(let i=1;i<11;i++){
   $("#noseat").append('<option value='+i+'>'+i+'</option>');
  }
