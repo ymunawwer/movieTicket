@@ -46,11 +46,9 @@ console.log(localStorage.getItem("seat"));
 	}
 }
 
-
-
-
 var noOfSeats = localStorage.getItem("noseat"), clickCounter = 0, k = 0, UserCount = 0;
 $(document).ready(function () {
+
 let temp="";
     $('.table').attr('disabled', true);
     var TableRows = $('.table tr');
@@ -114,8 +112,7 @@ localStorage.setItem("isEnable","false");
 	}
 });
 
-  }
-
+  });
 
 
 
